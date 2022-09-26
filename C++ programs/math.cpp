@@ -4,7 +4,6 @@
 
 float maxnum(float x,float y)
 {
-     //(x>y) ? return x : return y;
      
      if(x>y)
      return x;
