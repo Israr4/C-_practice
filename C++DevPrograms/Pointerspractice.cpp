@@ -42,8 +42,7 @@ class C
 			ptr= &stooges;
 			cout<<"First Stooges   "<<stooges.at(0)<<endl;
 			
-			for(auto stoog
-			:*ptr)
+			for(auto stoog:*ptr)
 			{
 				cout<<stoog<<" "<<endl;
 			}

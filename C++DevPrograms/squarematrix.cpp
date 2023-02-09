@@ -60,7 +60,7 @@ class Square_Matrix
 			if(i==j)
 			std::cout<<matrix[i][j]<<" ";
 			else
-			std::cout<<"  ";
+			std::cout<<" ";
 		}
 		    std::cout<<std::endl;
 	}
@@ -72,7 +72,7 @@ class Square_Matrix
 class Transpose_Matrix
 {
 	public:
-int transpose_matrix() 
+void transpose_matrix() 
 {
 	int row;
 	int col;
@@ -203,12 +203,12 @@ class Concatenate_Matrix
 
 int main()
 {
-//     Square_Matrix obj1;
-//	   obj1.square_matrix();
-	   Transpose_Matrix obj2;
-	   obj2.transpose_matrix();	
-//	   Concatenate_Matrix obj3;
-//	   obj3.concatenate_matrix();
+    // Square_Matrix obj1;
+	// obj1.square_matrix();
+	//    Transpose_Matrix obj2;
+	//    obj2.transpose_matrix();	
+	   Concatenate_Matrix obj3;
+	   obj3.concatenate_matrix();
 }
 	
 
