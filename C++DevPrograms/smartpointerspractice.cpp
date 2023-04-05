@@ -118,8 +118,8 @@ class UniquePointer:public SmartPointer
 
 int main()
 {
-////SmartPointer p3("Umer",1212);
-////p3.Display();
+//SmartPointer p3("Umer",1212);
+//p3.Display();
 //SharedPointer p1("Ali",1212,12);
 ////p2.Display();
 //SharedPointer p2(p1);
