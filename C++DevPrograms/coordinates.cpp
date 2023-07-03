@@ -1,4 +1,4 @@
-#include<iostream>
+  #include<iostream>
 #include<cmath>
 #include<string>
 
@@ -80,6 +80,4 @@ int main()
     CartesianCoordinate v(3.2, 4.6, 5.7);   //passing values in constructor
     CylindricalCoordinate abc = CartesianToCylindrical(v);  //passing values of cartesian to cylindrical coordinate
     display(abc);
-	
-
 }

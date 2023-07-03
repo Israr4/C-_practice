@@ -16,6 +16,7 @@ struct CartesianCoordinate{
 	   {
 		    xcoord=x;
 		    ycoord=y;
+			
 		    zcoord=z;
 	   }
 };
@@ -136,9 +137,9 @@ struct CylindricalCoordinate
     //    } 
 
       
-	   CylindricalCoordinate spherical_to_cylindrical(SphericalCoordinate spherical_point)  //because we cannot use structure here  without its nama as a data type
+	   CylindricalCoordinate spherical_to_cylindrical(SphericalCoordinate spherical_point)  //because we cannot use structure here  without its name as a data type
         {
-	        CylindricalCoordinate cylindrical_point;             //int idrees = 5;    as we not initilaize any thing to point si default constructor is installed
+	        CylindricalCoordinate cylindrical_point;             //int idrees = 5;    as we not initilaize any thing to point so default constructor is installed
 	        cylindrical_point.radius = spherical_point.radius*sin(spherical_point.phi);
 	        cylindrical_point.theta  = spherical_point.theta;
 	        cylindrical_point.zcoord = spherical_point.radius*cos(spherical_point.phi);
